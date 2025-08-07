@@ -55,14 +55,14 @@ There are two ways that you can submit:
       If you're using Arch Linux, run <code>sudo pacman -S git</code>
     </li>
     <li>
-      Run these commands:
+      Run these commands to initialize your Git folder and to copy this repository.
       <pre><code>
         git init
         git clone https://github.com/CS-ALP/CS-ALP.git
       </code></pre>
     </li>
     <li>
-      Now add your files to the folder. For exmaple, you want to add the file `Hello`:
+      Now add your files to the folder. For example, if you want to add the file `Hello`, do
       <pre><code>
         git add hello
       </code></pre>
@@ -72,6 +72,12 @@ There are two ways that you can submit:
       <pre><code>
         git commit -m "First commit. Hello CS-ALP!"
         git push
+      </code></pre>
+    </li>
+    <li>
+      To update your files whenever a new change is committed by someone else, do
+      <pre><code>
+        git pull
       </code></pre>
     </li>
   </ol>
